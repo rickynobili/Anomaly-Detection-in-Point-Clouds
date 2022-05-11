@@ -5,7 +5,7 @@ clear all;
 %pc = pointCloud(pc);
 %pc = x.pc;
 %pc = ReadPly_SingleClass('lastra_ondulata_2_skretches_50x50_zup.ply'); %Bunny_noisy0_2delta.ply %Fandisk_noisy0_8delta.ply %Fandisk_noisy0_4delta.ply
-pc = pcread('/home/riccardo/Desktop/Università/Magistrale/Tesi/Objects & Point Clouds/Columns/Damaged column 1/damaged_column1_2.ply');
+pc = pcread('damaged_column1_2.ply');
 loc = single(pc.Location);
 rng(2022);
 %pcd_ori = ReadPly_SingleClass('Bunny_ori.ply');
